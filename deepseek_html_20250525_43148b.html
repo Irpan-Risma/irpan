@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan | Nama Pasangan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Cover Undangan -->
+        <section class="cover">
+            <h1>Nama Pria & Nama Wanita</h1>
+            <p>Kami Berbahagia Mengundang Anda</p>
+            <div class="date">12 • 12 • 2025</div>
+            <div class="scroll-down">↓ Scroll Untuk Melihat Undangan ↓</div>
+        </section>
+
+        <!-- Detail Acara -->
+        <section class="details">
+            <h2>Save The Date</h2>
+            <div class="event-info">
+                <p><strong>Akad Nikah</strong><br>08:00 - 10:00 WIB<br>Masjid Al-Falah, Jakarta</p>
+                <p><strong>Resepsi</strong><br>11:00 - 15:00 WIB<br>Ballroom Hotel Grand Hyatt</p>
+            </div>
+            <a href="https://maps.google.com" target="_blank" class="map-link">📍 Lihat Lokasi di Google Maps</a>
+        </section>
+
+        <!-- Galeri Foto -->
+        <section class="gallery">
+            <h2>Our Moments</h2>
+            <div class="photo-grid">
+                <img src="https://via.placeholder.com/300x400" alt="Foto 1">
+                <img src="https://via.placeholder.com/300x400" alt="Foto 2">
+                <img src="https://via.placeholder.com/300x400" alt="Foto 3">
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section class="rsvp">
+            <h2>Konfirmasi Kehadiran</h2>
+            <form action="https://formspree.io/f/your-email@example.com" method="POST">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email/WhatsApp" required>
+                <select name="attendance" required>
+                    <option value="" disabled selected>Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <!-- Penutup -->
+        <section class="closing">
+            <p>Terima kasih atas doa dan kebahagiaan yang Anda berikan.</p>
+            <p>Kami tidak bisa menunggu untuk merayakan hari istimewa ini bersama Anda!</p>
+            <div class="couple-names">Nama Pria & Nama Wanita</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
